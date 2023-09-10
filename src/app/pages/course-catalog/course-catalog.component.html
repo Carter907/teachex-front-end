@@ -1,5 +1,5 @@
 
-<div class="flex container m-auto justify-around">
+<div class="flex px-10 m-auto justify-around bg-primary-dark">
 
   <app-back-button class="w-fit"></app-back-button>
   <h3 class="text m-auto text-center p-4">Course Catalog</h3>
@@ -9,11 +9,6 @@
   </a>
 </div>
 
-<div class="grid w-auto h-auto">
-  <div class="course">
-    <div id="course-name"></div>
-    <div id="course-start-date"></div>
-    <div id="course-end-date"></div>
-    <div id="course-subject"></div>
-  </div>
+<div class="grid w-auto h-auto bg-primary-dark" *ngFor="let course of courses">
+  <app-course-view  [course]="course"></app-course-view>
 </div>

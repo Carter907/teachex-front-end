@@ -11,6 +11,7 @@ body {
 .link {
   @apply hover:text-gray-400 select-none;
   @apply bg-secondary;
+
   @apply border-b-2 border-transparent hover:border-amber-50 p-4 m-4 rounded;
   @apply shadow-md;
   @apply transition-colors duration-500;
@@ -30,6 +31,7 @@ body {
   @apply border-transparent outline-0;
   @apply focus:border-primary;
   @apply focus:placeholder-amber-50;
+  @apply focus:text-amber-50;
   @apply select-none;
 
 
@@ -40,4 +42,3 @@ body {
   @apply border-b-2
 
 }
-

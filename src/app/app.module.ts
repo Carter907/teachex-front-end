@@ -9,7 +9,8 @@ import { CourseCatalogComponent } from './pages/course-catalog/course-catalog.co
 import { AboutComponent } from './pages/about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { BackButtonComponent } from './components/back-button/back-button.component'
+import { BackButtonComponent } from './components/back-button/back-button.component';
+import { CourseViewComponent } from './components/course-view/course-view.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BackButtonComponent } from './components/back-button/back-button.compon
     HomeComponent,
     CourseCatalogComponent,
     AboutComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    CourseViewComponent
   ],
   imports: [
     BrowserModule,
