@@ -7,12 +7,10 @@
 
   <h4 class="text p-10">Login</h4>
   <div class="row-auto">
-    <form class="p-5 flex justify-center flex-col gap-10">
-      <input class="input-field" id="username-field" placeholder="username" type="text">
+      <input class="input-field" id="username-field" placeholder="username" type="text" [formControl]="username">
 
-      <input class="input-field" id="password-field" placeholder="password" type="password">
+      <input class="input-field" id="password-field" placeholder="password" type="password" [formControl]="password">
 
-      <button class="login-sumbit" type="submit">Submit</button>
-    </form>
+      <button class="login-submit" type="submit">Submit</button>
   </div>
 </div>
